@@ -42,7 +42,7 @@ terraform {
   }
 }
 
-#/d/2019/Terraform/terraform init  -target=module.elb_dev  -var-file="dev-variables.tfvars"
-#/d/2019/Terraform/terraform apply  -target=module.elb_dev  -var-file="dev-variables.tfvars" --auto-approve
+#terraform init  -target=module.elb_dev  -var-file="dev-variables.tfvars"
+#terraform apply  -target=module.elb_dev  -var-file="dev-variables.tfvars" --auto-approve
 
-#/d/2019/Terraform/terraform apply  -target=module.elb_prod  -var-file="prod-variables.tfvars" --auto-approve
+#terraform apply  -target=module.elb_prod  -var-file="prod-variables.tfvars" --auto-approve
